@@ -66,10 +66,9 @@ document.getElementById("regForm").addEventListener("submit", function (event) {
     document.getElementById("numError").innerText = "Enter 11-digit valid number";
     isValid = false;
   }
-
-  // If all validation passes, submit the form
   if (isValid) {
     this.submit();
   }
 
 });
+
